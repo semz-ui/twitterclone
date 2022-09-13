@@ -1,0 +1,38 @@
+.home {
+    width: 100%;
+}
+.home1 {
+    width: 60%;
+    display: flex;
+    margin: 0 10%;
+    justify-content: space-between;
+    background-color: blue;
+    align-items: center;
+}
+
+.mn {
+    width: 40%;
+}
+
+.sb {
+    width: 15%;
+}
+
+.wgt {
+    width: 15%;
+}
+
+@media only screen and (max-width: 1115px) {
+    .home1 {
+        margin: 0px;
+        /* background-color: aqua; */
+    }
+    .mn {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1001px) {
+    .sb {
+       width: 7rem; 
+    }
+}
