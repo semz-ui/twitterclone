@@ -72,7 +72,7 @@ function Main() {
         <div className='vl'></div>
         <div style={ { width: "100%" } }>
           <div className='main__content'>
-          <div>
+          <div className='head'>
             <div className='main__header__home'>
               <h4>Home</h4>
               <BsStars size={20} />
@@ -107,7 +107,7 @@ function Main() {
               usersTweets.map((user) => (
                 <div key={user.id}>
                   <div className='main__content'>
-              <div className='post__main'>
+              <div className='post__main1'>
                 <div>
                   <img src={user.img} className='main__profileimg' />
                 </div>
