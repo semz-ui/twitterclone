@@ -10,6 +10,20 @@
     align-items: center;
 }
 
+.gt {
+    display: flex;
+    /* flex-direction: column-reverse; */
+}
+
+.bm {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: brown;
+    width: 100%;
+    visibility: hidden;
+}
+
 .mn {
     width: 40%;
 }
@@ -28,11 +42,24 @@
         /* background-color: aqua; */
     }
     .mn {
-        width: 90%;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 1001px) {
     .sb {
-       width: 7rem; 
+       width: 7rem;
+       /* display: none; */
+    }
+}
+@media only screen and (max-width: 637px) {
+    .mn {
+        width: 100%;
+    }
+    .sb {
+       width: 7rem;
+       display: none;
+    }
+    .bm {
+        visibility: visible;
     }
 }

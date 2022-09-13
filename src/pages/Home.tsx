@@ -6,7 +6,8 @@ import Widget from '../components/Widget'
 
 function Home() {
   return (
-    <div className='home'>
+    <div className='gt'>
+      <div className='home'>
         <div className='home1'>
         <div className='sb'>
             <Sidebar />
@@ -18,6 +19,8 @@ function Home() {
             <Widget />
         </div>
         </div>
+    </div>
+    <div className='bm'>Yolhsghgsahgo</div>
     </div>
   )
 }
