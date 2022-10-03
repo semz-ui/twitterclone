@@ -6,7 +6,7 @@
     display: flex;
     margin: 0 10%;
     justify-content: space-between;
-    background-color: blue;
+    /* background-color: blue; */
     align-items: center;
 }
 
@@ -19,7 +19,11 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: brown;
+    display: flex;
+    align-items: center;
+    border-top: 0.5px solid;
+    border-color: gray;
+    height: 5%;
     width: 100%;
     visibility: hidden;
 }
@@ -52,9 +56,9 @@
     }
 }
 @media only screen and (max-width: 637px) {
-    .mn {
+    /* .mn {
         width: 100%;
-    }
+    } */
     .sb {
        width: 7rem;
        display: none;

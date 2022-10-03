@@ -1,0 +1,25 @@
+.MobileHeader{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    border-color: gray;
+    display: flex;
+}
+.mbHeaderImg {
+    width: 30px;
+    border-radius: 20px;
+}
+
+.mobHome {
+    display: flex;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.homemob {
+    flex: 1;
+}
+
+.mobImg {
+    margin-left: 10px;
+}

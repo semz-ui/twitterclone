@@ -1,4 +1,5 @@
 import React from 'react'
+import MobileMain from '../Mobile/MobileMain'
 import '../styles/Main.css'
 import {BsStars, BsImage, BsFillEmojiSmileFill, BsChatText } from 'react-icons/bs'
 import {AiOutlineFileGif, AiOutlineSchedule, AiOutlineRetweet} from 'react-icons/ai'
@@ -68,7 +69,8 @@ function Main() {
     }
   ]
   return (
-    <div className='main'>
+    <div>
+      <div className='main'>
         <div className='vl'></div>
         <div style={ { width: "100%" } }>
           <div className='main__content'>
@@ -141,6 +143,10 @@ function Main() {
             }
         </div>
         <div className='vl'></div>
+    </div>
+    <div className='main__mobile'>
+            <MobileMain />
+    </div>
     </div>
   )
 }

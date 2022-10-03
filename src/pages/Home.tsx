@@ -3,6 +3,8 @@ import '../styles/Home.css'
 import Main from '../components/Main'
 import Sidebar from '../components/Sidebar'
 import Widget from '../components/Widget'
+import MobileTabView from '../Mobile/MobileTabView'
+import MobileSideBar from '../Mobile/MobileSideBar'
 
 function Home() {
   return (
@@ -20,7 +22,10 @@ function Home() {
         </div>
         </div>
     </div>
-    <div className='bm'>Yolhsghgsahgo</div>
+    <div className='bm'>
+      {/* <MobileSideBar /> */}
+      <MobileTabView />
+    </div>
     </div>
   )
 }

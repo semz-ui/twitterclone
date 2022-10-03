@@ -8,6 +8,10 @@
     /* min-height: 100%; */
 }
 
+.main__mobile {
+    display: none;
+}
+
 
 .vl {
     border-left: 1px solid white;
@@ -125,5 +129,11 @@
     }
     .head {
         padding-bottom: 10px;
+    }
+    .main {
+        display: none;
+    }
+    .main__mobile {
+        display: block;
     }
 }
